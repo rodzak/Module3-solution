@@ -1,26 +1,20 @@
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  font-family: Brushstroke, fantasy;
-  color: #000000;
+  font-family: Comic Sans MS;
 }
 
 body {
-  background-image: url("background.jpg");
-  background-color: #FEF5CA;
+  background-color: lightgoldenrodyellow;
+}
 
+h1{
+  font-family: Comic Sans MS;
 }
 
 p {
-  height: 1000px;
+  height: auto;
   padding: 10px;
   margin: 0;
-}
-
-li p{
-  height: auto;
 }
 
 .container {
@@ -34,10 +28,9 @@ li p{
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
+  background-color: gray;
   width: 100%;
   height: auto;
-  font-family: Helvetica;
   color: black;
   position: relative;
   overflow: auto;
@@ -48,13 +41,12 @@ section {
   text-align: center;
   width: 30%;
   margin-left: 70%;
-  font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FFFF00;
+  background-color: pink;
 }
 
 #beef {
@@ -62,13 +54,13 @@ section {
   text-align: center;
   width: 30%;
   margin-left: 70%;
-  font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FF1439;
+  color: white;
+  background-color: red;
 }
 
 #sushi {
@@ -76,13 +68,11 @@ section {
   text-align: center;
   width: 30%;
   margin-left: 70%;
-  font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #6495ED;
-  color: white;
+  background-color: yellow;
   padding: 5px;
 }
 
@@ -104,17 +94,17 @@ section {
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #FFFFFF;
+  color: white;
 }
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
+  background-color: darkred;
+  color: white;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid white;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -122,11 +112,11 @@ section {
 }
 
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 .nav-brand {
-  color: #FFFFFF;
+  color: white;
   font-size: 1.5em;
 }
 
